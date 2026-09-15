@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="111">
+    <author>Marcus</author>
+    <version>1.0.0.0</version>
+
+    <title>
+        <en>Disable Shop</en>
+        <de>Shop Deaktivieren</de>
+    </title>
+
+    <description>
+        <en><![CDATA[The vehicle dealer can no longer be opened using the P key.]]></en>
+        <de><![CDATA[Der Fahrzeughändler kann nicht mehr mit der Taste P geöffnet werden.]]></de>
+    </description>
+	
+	<iconFilename>icon_disableShop.dds</iconFilename>
+
+    <multiplayer supported="true" />
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/DisableShop.lua" />
+    </extraSourceFiles>
+
+</modDesc>
